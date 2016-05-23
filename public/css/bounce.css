@@ -1,0 +1,169 @@
+
+
+.module {
+  
+  -webkit-animation: bounce 2200ms ease-out;
+  -moz-animation: bounce 2200ms ease-out;
+  -o-animation: bounce 2200ms ease-out;
+  animation: bounce 2200ms ease-out;
+}
+
+
+#module1 {
+	
+	-webkit-animation: bounce 2200ms ease-out;
+	-moz-animation: bounce 2200ms ease-out;
+	-o-animation: bounce 2200ms ease-out;
+	animation: bounce 2200ms ease-out;
+}
+
+#module2 {
+	
+	-webkit-animation: bounce 1900ms ease-out;
+	-moz-animation: bounce 1900ms ease-out;
+	-o-animation: bounce 1900ms ease-out;
+	animation: bounce 1900ms ease-out;
+}
+
+#module3 {
+	
+	-webkit-animation: bounce 2100ms ease-out;
+	-moz-animation: bounce 2100ms ease-out;
+	-o-animation: bounce 2100ms ease-out;
+	animation: bounce 2100ms ease-out;
+}
+
+#module4 {
+	
+	-webkit-animation: bounce 2200ms ease-out;
+	-moz-animation: bounce 2200ms ease-out;
+	-o-animation: bounce 2200ms ease-out;
+	animation: bounce 2200ms ease-out;
+}
+
+#module5 {
+	
+	-webkit-animation: bounce 2400ms ease-out;
+	-moz-animation: bounce 2400ms ease-out;
+	-o-animation: bounce 2400ms ease-out;
+	animation: bounce 2400ms ease-out;
+}
+
+#module6 {
+	
+	-webkit-animation: bounce 2000ms ease-out;
+	-moz-animation: bounce 2000ms ease-out;
+	-o-animation: bounce 2000ms ease-out;
+	animation: bounce 2000ms ease-out;
+}
+
+
+
+/* Webkit, Chrome and Safari */
+
+@-webkit-keyframes bounce {
+  0% {
+	-webkit-transform:translateY(-500%);
+    opacity: 0;
+  }
+  5% {
+  	-webkit-transform:translateY(-400%);
+    opacity: 0;
+  }
+   10% {
+  	-webkit-transform:translateY(-350%);
+    opacity: 0;
+  }
+  15% {
+  	-webkit-transform:translateY(300);
+    padding-bottom: 5px;
+  }
+  40% {
+  	-webkit-transform:translateY(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+  	-webkit-transform:translateY(-10%);
+  }
+}
+
+/* Mozilla Firefox 15 below */
+@-moz-keyframes bounce {
+  0% {
+	-webkit-transform:translateY(-500%);
+    opacity: 0;
+  }
+  5% {
+  	-webkit-transform:translateY(-400%);
+    opacity: 0;
+  }
+   10% {
+  	-webkit-transform:translateY(-350%);
+    opacity: 0;
+  }
+  15% {
+  	-webkit-transform:translateY(300);
+    padding-bottom: 5px;
+  }
+  40% {
+  	-webkit-transform:translateY(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+  	-webkit-transform:translateY(-10%);
+  }
+}
+
+/* Opera 12.0 */
+@-o-keyframes bounce {
+    0% {
+	-webkit-transform:translateY(-500%);
+    opacity: 0;
+  }
+  5% {
+  	-webkit-transform:translateY(-400%);
+    opacity: 0;
+  }
+   10% {
+  	-webkit-transform:translateY(-350%);
+    opacity: 0;
+  }
+  15% {
+  	-webkit-transform:translateY(300);
+    padding-bottom: 5px;
+  }
+  40% {
+  	-webkit-transform:translateY(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+  	-webkit-transform:translateY(-10%);
+  }
+}
+
+/* W3, Opera 12+, Firefox 16+ */
+@keyframes bounce {
+  0% {
+	-webkit-transform:translateY(-500%);
+    opacity: 0;
+  }
+  5% {
+  	-webkit-transform:translateY(-400%);
+    opacity: 0;
+  }
+   10% {
+  	-webkit-transform:translateY(-350%);
+    opacity: 0;
+  }
+  15% {
+  	-webkit-transform:translateY(300);
+    padding-bottom: 5px;
+  }
+  40% {
+  	-webkit-transform:translateY(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+  	-webkit-transform:translateY(-10%);
+  }
+}

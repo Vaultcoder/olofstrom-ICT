@@ -1,0 +1,25 @@
+[data-pie-id] > *:nth-child(7n+1), [data-bar-id] > *:nth-child(7n+1), [data-line-id] > *:nth-child(7n+1) {
+  color: #1d8f43; }
+[data-pie-id] > *:nth-child(7n+2), [data-bar-id] > *:nth-child(7n+2), [data-line-id] > *:nth-child(7n+2) {
+  color: #c14545; }
+
+#pie, #donut, #bar {
+  max-height: 450px; 
+}
+
+
+svg {
+  width: 200px;
+  height: auto; 
+}
+
+.tooltip {
+  margin-left: -5px;
+  border-radius: 3px;
+  padding: 5px; 
+}
+
+ul[data-pie-id] {
+  list-style: none;
+  padding: 10px; 
+}

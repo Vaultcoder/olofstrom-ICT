@@ -1,0 +1,331 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+
+body, html {
+   height:100%
+}
+
+#background {
+	background-image: url("/img/blackboard.jpg");
+	background-repeat: repeat;
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px;
+    bottom: 0;  
+    z-index: -1; 
+}
+
+
+
+#ipad{
+	display: block;
+	width: 100%;
+	padding-bottom: auto;
+    vertical-align: middle;
+	margin-left: 5%;
+}
+
+#ipad-content{
+	padding-top: 12.5%;
+	padding-left: 5%;
+	position: relative;
+	background-position: center 40px;
+	background-size: 100%;
+	width: 100%;
+	min-height: auto;
+}
+
+#ipad-text{
+	font-family: cursive;
+	font-style: oblique;
+	margin-top: 20%;
+	text-align: center;
+	font-size: 2.7rem;
+	font-weight: 400;
+	line-height: 4rem;
+	color: #F8A605;
+}
+
+#logga {
+		
+}
+
+
+#container
+{
+	position: relative;
+	z-index: 1;
+}
+
+h1 {
+    float: top;
+}
+
+/*#login
+{  	
+    min-height:100%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #53ADBA;
+	font-size: 100%;
+}*/
+
+.red {
+	height: 100%;
+}
+
+.blue {
+	height: 100%;
+}
+
+.yellow {
+	height: auto;
+	padding-bottom: 15%;
+	color: white;
+	height: 100%;
+	background-color: rgba(20, 20, 20, 0.4);	
+}
+
+ .yellow a {
+ 	text-shadow: 2px 2px 8px grey;
+ 	margin-top: 0%;
+ 	text-align: center;
+ 	position: relative;
+	font-size: 5rem;
+	color: #7AB292;
+}
+
+.yellow a:hover {
+    color: #53ADBA;
+}
+
+#login-ruta-stor {
+	-webkit-box-shadow: 8px 6px 13px 0px rgba(171, 178, 194, 0.54);
+	-moz-box-shadow:    8px 6px 13px 0px rgba(171, 178, 194, 0.54);
+	box-shadow:         8px 6px 13px 0px rgba(171, 178, 194, 0.54);
+	background-color: rgba(255, 255, 255, 0.1);	
+	border-radius: 2rem;
+	margin-top: 15%;
+	padding-top: 25%;
+	padding-bottom: 28%;
+	margin-right: auto;
+	margin-left: auto;
+	border: inset white;
+	width: 80%;
+    vertical-align: middle;  
+}
+
+
+#login-ruta-medium {
+	padding-top: 15%;
+	padding-bottom: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+    vertical-align: middle;  
+}
+
+
+#login-ruta-liten {
+	padding-top: 7%;
+	padding-bottom: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	width: 100%;
+    vertical-align: middle;  
+}
+
+
+
+#remember-knapp {
+	padding: 5%;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	height:30px; 
+    width:75px;     
+}
+
+
+#footer {
+	background-color: #7AB292;
+	border-top: solid black 2px;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 1%;
+	height: auto;
+	position: fixed;
+
+}
+
+
+
+.left_text_shadow {
+	color: #000;
+	opacity: 0.5;
+	font-size:17px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+	text-align: left;
+}
+
+.left_text_big {
+	margin-top: 1%;
+	font-size:20px;
+	color: #222;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+	text-align: left;
+}
+
+.left_text_big2 {
+	margin-top: 1%;
+	font-size:20px;
+	color: #222;
+	text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+	text-align: left;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+
+.left_text_shadow {
+  color: #000;
+  opacity: 0.5;
+  font-size:10px;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big {
+  margin-top: 1%;
+  font-size:15px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big2 {
+  margin-top: 1%;
+  font-size:15px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width : 365px) and (min-width: 320px) {
+/* Styles */
+
+.left_text_shadow {
+  color: #000;
+  opacity: 0.5;
+  font-size:10px;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big {
+  margin-top: 1%;
+  font-size:15px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big2 {
+  margin-top: 1%;
+  font-size:15px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width : 450px) and (min-width: 365px) {
+/* Styles */
+
+.left_text_shadow {
+  color: #000;
+  opacity: 0.5;
+  font-size:12px;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big {
+  margin-top: 1%;
+  font-size:17px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big2 {
+  margin-top: 1%;
+  font-size:17px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width : 722px) and (min-width: 450px) {
+/* Styles */
+
+.left_text_shadow {
+  color: #000;
+  opacity: 0.5;
+  font-size:15px;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big {
+  margin-top: 1%;
+  font-size:20px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+.left_text_big2 {
+  margin-top: 1%;
+  font-size:20px;
+  color: #222;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.1), 0px -1px 0px rgba(0,0,0,.1);
+  text-align: left;
+}
+
+

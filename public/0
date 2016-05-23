@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+        
+        <meta charset="UTF-8">
+        
+        <!-- Foundation CSS -->
+        <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/foundation.css">
+
+        <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/admin.css">
+
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        
+        <!-- foundation JS -->
+        <script src="http://localhost/js/vendor/modernizr.js"></script>
+
+        <script src="http://localhost/js/vendor/jquery.js"></script>
+
+        <script src="http://localhost/js/foundation/foundation.js"></script>
+
+        <script src="http://localhost/js/foundation/foundation.interchange.js"></script>
+
+        <script src="http://localhost/js/foundation/foundation.offcanvas.js"></script>
+
+        <script src="http://localhost/js/foundation/foundation.reveal.js"></script>
+
+        <script src="http://localhost/js/adminJs.js"></script>
+
+		<!-- Other JS plugins can be included here -->
+
+		<script>
+			$(document).foundation();
+		</script>
+    </head>
+<body>
+    
+    
+    <div class="container" style="width: 500px; margin: 0 auto; margin-top: 15px;">  
+<h2>Att lägg till XML document</h2>
+
+
+<form method="POST" action="http://localhost/admin/users/addxml" accept-charset="UTF-8"><input name="_token" type="hidden" value="wWBsY40jB9F93fWo0LUa0WkxHEde0JtyPnBt0QQf">
+	<input name="_token" type="hidden" value="wWBsY40jB9F93fWo0LUa0WkxHEde0JtyPnBt0QQf">
+    <input name="file" type="file">
+
+    <input type="submit" value="upload!">
+    <input type="reset" value="Reset">
+</form>
+
+</div>
+</body>
+</html>
